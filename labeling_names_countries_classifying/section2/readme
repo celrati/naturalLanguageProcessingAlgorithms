@@ -1,0 +1,5 @@
+python3 word-segmentation.py big-ws-model.txt jap_test
+python3 word-segmentation.py [model] [test_file]
+
+python3 train-unigram.py [test]  # la sortie est ecrite dans new_model_unigram
+python3 test_unigram.py [model] [test] test-input.txt  # pour calculer  coverage , entropy
